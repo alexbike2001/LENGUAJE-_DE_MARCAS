@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio html para hacer tablas">
+    <meta name="author" content="Alejandro Roberto">
+<body>
+    <h1>EJERCICIO 1</h1>
+    <table border="1" style="border:1px solid #000000; width:100%;">
+        <tr>
+          <th scope="col"> &nbsp;</th>
+          <th scope="col">Lunes</th>
+          <th scope="col">Martes</th>
+          <th scope="col">Miércoles</th>
+          <th scope="col">Jueves</th>
+          <th scope="col">Viernes</th>
+        </tr>
+        <tr>
+          <th scope="row">10:30</th>
+          <td>Matemáticas</td>
+          <td>Geografía</td>
+          <td>Física</td>
+          <td>Dibujo</td>
+          <td rowspan=2>Matemáticas</td>
+        </tr>
+        <tr>
+            <th scope="row">11.30</th>
+            <td>Inglés</td>
+            <td>Lenguaje</td>
+            <td>Geografía</td>
+            <td>Química</td>
+        </tr>
+    </table>
+    <br>
+    <h1>EJERCICIO 2</h1>
+    <table  border="1" style="border:1px solid #000000; width:100%;">
+        <tr>
+            <td>hola</td>
+            <td>hola</td>
+            <td colspan="2">hola</td> 
+        </tr>
+        <tr>
+            <td>hola</td>
+            <td colspan="2">hola</td>
+            <td rowspan="2">hola</td>
+        </tr>
+        <tr>
+            <td rowspan="3">hola</td>
+            <td>hola</td>
+            <td>hola</td>
+        </tr>
+             
+        <tr>
+            <td colspan="3">hola</td>
+        </tr>
+        <tr>
+            <td colspan="3">hola</td>
+        </tr>
+    </table>
+    <br>
+    <h1>EJERCICIO 3</h1>   
+    <table  border="1" style="border:1px solid #000000; width:100%;">    
+        <tr>
+            <th>Producto</th>
+         <th>Unidades</th>
+            <th>Precio</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+         <th>Camisetas</th>
+            <td>10</td>
+            <td>2</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>Pantalones</th>
+            <td>3</td>
+            <td>14</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <th>Chaquetas</th>
+            <td>4</td>
+            <td>20</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <th colspan="2">Año 2014</th>
+            <th>Total</th>
+            <td>142</td>
+        </tr>
+    </table>
+     <br>
+        <h1>EJERCICIO 4</h1>   
+        <table  border="1" style="border:1px solid black; width:100%;">
+            <colgroup>
+                <col span="2"  style="background-color:orange">
+                <col span="2"  style="background-color:green">
+                <col span="1"  style="background-color:lightblue">
+                <col span="2"  style="background-color:gray">
+            </colgroup>
+        <tr>
+            <th colspan ="7" style="background-color:yellow">Dias laborables de la semana</th>
+        </tr>
+        <tr>
+            <th colspan="2" >&nbsp;</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <th colspan="2" rowspan="4">Mes de Octubre</th>
+            <th>8:30</th>
+            <th rowspan="3">9:00</th>
+            <th>8:45</th>
+            <th>10:00</th>
+            <th>9:45</th>
+        </tr>
+        <tr>
+            <th>9:00</th>
+            <th rowspan="2">9:00</th>
+            <th>10:15</th>
+            <th>10:15</th>
+        </tr>
+        <tr>
+            <th>9:30</th>
+            <th colspan="2" rowspan="2">10:30</th>
+        </tr>
+        <tr>
+            <th>10:00</th>
+            <th>9:30</th>
+            <th>9:15</th>
+        </tr>
+        <tr>
+            <th colspan="2">&nbsp;</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th> 
+        </tr>
+        <tr>
+            <th colspan ="7" style="background-color:yellow">Dias laborables de la semana</th>
+        </tr>
+</body>
