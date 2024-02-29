@@ -1,0 +1,173 @@
+body{
+    background-image: url(fondo.jpg);
+}
+#coche{
+    position:relative;
+}
+h1{
+    color: #fcfcfc;
+}
+#chasis{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    border-style: solid;
+    border-color: #ba1010;
+    padding:50px; 
+    background:#d33333;
+    width:300px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 180%;
+    border-bottom-right-radius:30% ;
+    border-bottom-left-radius: 35%;
+
+}
+#rueda1{
+    top: 290px;
+    left: 60px;
+    position: absolute;
+    border-style: solid;
+    border-color: #737171;
+    padding:20px; 
+    background:#393838;
+    width:20px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100% ;
+    border-bottom-left-radius: 100%;
+}
+#rueda2{
+    top: 290px;
+    left: 310px;
+    position: absolute;
+    border-style: solid;
+    border-color: #737171;
+    padding:20px; 
+    background:#393838;
+    width:20px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100% ;
+    border-bottom-left-radius: 100%;
+}
+#faros{
+    position: absolute;
+    top: 258px;
+    left: 385px;
+    border-style: solid;
+    border-color: #c3c0c0;
+    background:#eff700;
+    height:15px;
+    width:35px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 180%;
+    border-bottom-right-radius:30% ;
+    border-bottom-left-radius: 35%;
+}
+#ventanillas{
+    position: absolute;
+    top: 215px;
+    left: 80px;
+    border-style: solid;
+    border-color: #000000;
+    height:50px;
+    background:#17899a;
+    width:260px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 180%;
+    border-bottom-right-radius:30% ;
+    border-bottom-left-radius: 35%;
+}
+#puerta{
+    position: absolute;
+    top: 217px;
+    left: 200px;
+    border-style: solid;
+    border-color: #0d0d0d;
+    height:65px;
+}
+#llanta1{
+    top: 298px;
+    left: 70px;
+    position: absolute;
+    border-style: solid;
+    border-color: #ffffff;
+    height:40px;
+    background:#7a7a7c;
+    width:40px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius: 100%;
+}
+#llanta2{
+    top: 298px;
+    left: 320px;
+    position: absolute;
+    border-style: solid;
+    border-color: #ffffff;
+    height:40px;
+    background:#7a7a7c;
+    width:40px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius: 100%;
+}
+#conductor1{
+    top: 230px;
+    left: 250px;
+    position: absolute;
+    border-style: solid;
+    border-color: #ffffff;
+    height:21px;
+    background:#ffffff;
+    width:20px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius: 100%;
+}
+#conductor2{
+    top: 255px;
+    left: 259px;
+    position: absolute;
+    border-style: solid;
+    border-color: #ffffff;
+    height:10px;
+    background:#ffffff;
+    width:2px;
+}
+#repuesto{
+    top: 240px;
+    left: 6px;
+    position: absolute;
+    border-style: solid;
+    border-color: #000000;
+    height:50px;
+    background:#060606;
+    width:20px;
+}#escape{
+    top: 300px;
+    left: 15px;
+    position: absolute;
+    border-style: solid;
+    border-color: #3f3e3e;
+    height:10px;
+    background:#918f8f;
+    width:50px;
+}
+#nitro{
+    top: 297px;
+    left: 1px;
+    position: absolute;
+    border-style: solid;
+    border-color: #eedf0d;
+    height: auto; 
+    background:#c5310f;
+    width:20px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius:100% ;
+    border-bottom-left-radius: 100%;
+}
